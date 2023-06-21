@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Update Owner</title>
+</head>
+
+<body>
+    <h1>Update an owner</h1>
+    <form method="POST">
+        First Name: <input type="text" name="first_name" value="<%= owner.first_name %>" /><br>
+        Last Name: <input type="text" name="last_name" value="<%= owner.last_name %>" /><br>
+        Phone: <input type="number" name="phone_number" value="<%= owner.phone_number %>" /><br>
+        Email: <input type="email" name="email" value="<%= owner.email %>" /><br>
+        <input type="submit" value="Update" />
+    </form>
+
+</body>
+
+</html>
